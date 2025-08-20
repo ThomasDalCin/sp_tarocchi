@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "imageSrc": "./assets/images/GLI AMANTI @300x-100.jpg",
+    "backText": "Gli Amanti rappresentano l’unione degli opposti, la scelta consapevole tra desiderio e dovere. Questa carta invita alla connessione profonda e alla fiducia reciproca.",
+    "backImageSrc": "./assets/images/RETRO.jpg",
+    "alt": "Immagine card 1"
+  },
+  {
+    "id": 2,
+    "imageSrc": "./assets/images/IL DIAVOLO@300x-100.jpg",
+    "backText": "Il Diavolo simboleggia la schiavitù delle passioni, l’illusione del potere e le catene invisibili. Porta con sé un monito: riconosci le tue ombre per liberartene.",
+    "backImageSrc": "./assets/images/RETRO.jpg",
+    "alt": "Immagine card 2"
+  },
+  {
+    "id": 3,
+    "imageSrc": "./assets/images/IL MAGO @300x-100.jpg",
+    "backText": "Il Mago è il principio della creazione, colui che trasforma la volontà in azione. È maestro di inizi, intelligenza e potere personale.",
+    "backImageSrc": "./assets/images/RETRO.jpg",
+    "alt": "Immagine card 3"
+  },
+  {
+    "id": 4,
+    "imageSrc": "./assets/images/IL MONDO@300x-100.jpg",
+    "backText": "Il Mondo segna la fine di un ciclo, l’integrazione di ogni parte del Sé. È una carta di successo, armonia e realizzazione spirituale.",
+    "backImageSrc": "./assets/images/RETRO.jpg",
+    "alt": "Immagine card 4"
+  },
+  {
+    "id": 5,
+    "imageSrc": "./assets/images/IL SOLE @300x-100.jpg",
+    "backText": "Il Sole irradia verità, vitalità e gioia. Simbolo di chiarezza e successo, porta luce su tutto ciò che prima era nascosto.",
+    "backImageSrc": "./assets/images/RETRO.jpg",
+    "alt": "Immagine card 5"
+  },
+  {
+    "id": 6,
+    "imageSrc": "./assets/images/L'EREMITA@300x-100.jpg",
+    "backText": "L’Eremita è guida silenziosa e cercatore della verità interiore. Invita alla riflessione, alla pazienza e alla saggezza senza tempo.",
+    "backImageSrc": "./assets/images/RETRO.jpg",
+    "alt": "Immagine card 6"
+  },
+  {
+    "id": 7,
+    "imageSrc": "./assets/images/LA LUNA @300x-100.jpg",
+    "backText": "La Luna parla di illusioni, intuizione e misteri. È la voce del subconscio che guida nei luoghi nascosti dell’anima.",
+    "backImageSrc": "./assets/images/RETRO.jpg",
+    "alt": "Immagine card 7"
+  },
+  {
+    "id": 8,
+    "imageSrc": "./assets/images/LA TEMPERANZA@300x-100.jpg",
+    "backText": "La Temperanza è equilibrio, guarigione e armonia. Essa invita alla moderazione e alla fiducia nel tempo come alleato.",
+    "backImageSrc": "./assets/images/RETRO.jpg",
+    "alt": "Immagine card 8"
+  }
+]
