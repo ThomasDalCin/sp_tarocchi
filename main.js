@@ -12,6 +12,7 @@ function main() {
 
     getItems();
 
+    const navigation = document.querySelector('.navigation');
     const overlay = document.querySelector('.overlay-wrapper');
     const containerItem = overlay.querySelector('.overlay-wrapper__container-item');
     const containerFront = overlay.querySelector('.overlay-wrapper__container-item-image-front');
@@ -79,6 +80,23 @@ function main() {
 
         overlay.classList.add('is--open');
     }
+
+    function animateNav(){
+        let lastScrollY = window.scrollY;
+
+        window.addEventListener('scroll', () => {
+
+            if(window.scrollY > lastScrollY) {
+                navigation.classList.add('hidden')
+            } else {
+                navigation.classList.remove('hidden')
+            }
+
+            lastScrollY = window.scrollY
+        })
+    }
+
+    animateNav();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
