@@ -81,22 +81,25 @@ function main() {
         overlay.classList.add('is--open');
     }
 
-    function animateNav(){
-        let lastScrollY = window.scrollY;
+   function animateNav() {
+    let lastScrollY = window.scrollY;
 
-        window.addEventListener('scroll', () => {
+    window.addEventListener('scroll', () => {
+        const currentScrollY = window.scrollY;
 
-            if(window.scrollY > lastScrollY) {
-                navigation.classList.add('hidden')
-            } else {
-                navigation.classList.remove('hidden')
-            }
-
-            lastScrollY = window.scrollY
-        })
+        if (currentScrollY === 0) {
+            navigation.classList.remove('hidden');
+        } else if (currentScrollY > lastScrollY) {
+            navigation.classList.add('hidden');
+        } else {
+            navigation.classList.remove('hidden');
+        }
+            lastScrollY = currentScrollY;
+        });
     }
 
     animateNav();
+
 }
 
 document.addEventListener('DOMContentLoaded', () => {
