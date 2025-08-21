@@ -286,6 +286,10 @@ h1,h2,h3,h4,h5,h6{
     .overlay-wrapper__container-item {
         width: 320px;
     }
+
+    .logo__image{
+        width: 80px;
+    }
 }
 
 @media screen and (max-width: 375px) {
